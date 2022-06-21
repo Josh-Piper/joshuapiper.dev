@@ -19,34 +19,39 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+          <CgCPlusPlus title="C++"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiJavascript1 title="JavaScript" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiNodejs title="Node.js" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiReact /> 
+        {/* Replace this */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiMongodb title="MongoDb" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
+        {/* Replace this */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGit title="Git" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+        {/* Replace this */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+        {/* Replace this */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
+        {/* Replace this */}
       </Col>
     </Row>
   );
