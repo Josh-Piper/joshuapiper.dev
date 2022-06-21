@@ -69,7 +69,7 @@ function Home2() {
                 <a
                   href="https://github.com/Josh-Piper"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
@@ -79,7 +79,7 @@ function Home2() {
                 <a
                   href="https://www.linkedin.com/in/joshua-e-piper/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
@@ -89,7 +89,7 @@ function Home2() {
                 <a
                   href="mailto:josh.piper1505@yahoo.com"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillMail />
