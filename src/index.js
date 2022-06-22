@@ -10,7 +10,7 @@ ReactDOM.render(
     <Helmet>
       <title>Joshua Piper | SWE</title>
       <meta name="description" content="Joshua Piper's software engineering portfolio." />
-      <link rel="icon" href="Assets/favicon/favicon.ico" />
+      {/* <link rel="icon" href="Assets/favicon/favicon.ico" /> */}
       
       {/* <!-- Google / Search Engine Tags --> */}
       <meta itemprop="name" content="Joshua Piper | SWE" />
