@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import nfpDesigns from "../../Assets/Projects/nfp-designs.png";
+import battleships from "../../Assets/Projects/battleships.png";
+import spaceGame from "../../Assets/Projects/spacegame.png";
+import keywordSign from "../../Assets/Projects/key-word-sign.png";
+import swishCards from "../../Assets/Projects/swish-cards.jpeg";
+import timeTasker from "../../Assets/Projects/time-tasker.jpeg";
+import analytics from "../../Assets/Projects/analytics.png";
 
 function Projects() {
   return (
@@ -23,7 +24,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={nfpDesigns}
               isBlog={false}
               title="NFP Designs (Vue.js)"
               description="Add bullet points here."
@@ -33,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={battleships}
               isBlog={false}
               title="Battleships (C#, .NET)"
               description="Add bullet points here."
@@ -43,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={spaceGame}
               isBlog={false}
               title="Space Game (C++, SplashKit)"
               description="Add bullet points here."
@@ -53,7 +54,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={analytics}
               isBlog={false}
               title="COVID-19 and Twitter Data Analysis"
               description="Add bullet points here."
@@ -63,7 +64,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={keywordSign}
               isBlog={false}
               title="Key Word Sign (Hackathon)"
               description="Sup dup."
@@ -73,7 +74,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={swishCards}
               isBlog={false}
               title="Swish Cards"
               description="Swooh."
@@ -83,7 +84,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={timeTasker}
               isBlog={false}
               title="Time Tasker"
               description="Swooh."

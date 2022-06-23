@@ -16,8 +16,6 @@ This website is forked from [Soumyajit4419](https://github.com/soumyajit4419/Por
 
 ## Todo
 
-[o] - Add home button to nav bar like laithharb
-
 [o] - Add skill page like laithharb
 
 [o] - Change splashscreen to blue dots
