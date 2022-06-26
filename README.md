@@ -18,6 +18,8 @@ This website is forked from [Soumyajit4419](https://github.com/soumyajit4419/Por
 
 [o] - Add skill page like laithharb
 
+[o] - Make resume in web dev to make it responsive for mobile and desktops.
+
 [o] - Change splashscreen to blue dots
 
 [o] - Change pictures to blue themed

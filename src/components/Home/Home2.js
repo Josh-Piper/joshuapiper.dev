@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/josh2.png";
+
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -47,10 +48,14 @@ function Home2() {
           </Col>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-               <span className="purple"> WHAT CAN YOU DO?  </span>
+               WHAT DO<span className="purple"> I USE  </span>
             </h1>
             <p className="home-about-body">
               I'm glad you asked!
+
+              I'm comfortable programming with all sorts of tools.
+              I mainly deal with backend technologies such as TypeScript, JOI, Express, Node, MongoDB and MySQL.
+              
               
               <br />
               <br />

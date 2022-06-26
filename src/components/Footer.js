@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
+  AiFillGithub, AiFillMail
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -10,7 +10,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3><a href="https://github.com/Josh-Piper/joshuapiper.dev" >View Source Code</a></h3>
+          <h3><a href="https://github.com/Josh-Piper/joshuapiper.dev" target="_blank">View Source Code</a></h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -32,6 +32,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                style={{ color: "white" }}
+                href="mailto:josh.piper1505@yahoo.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillMail />
               </a>
             </li>
           </ul>

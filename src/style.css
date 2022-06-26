@@ -687,3 +687,15 @@ button:focus {
     transform: scale(1);
   }
 }
+
+.modal-content {
+  background-color: #b3b7c3 !important;
+}
+
+.modal-header {
+  border-bottom: 0 none !important;
+}
+
+.modal-footer {
+  border-top: 0 none !important;
+}
