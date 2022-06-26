@@ -16,6 +16,12 @@ This website is forked from [Soumyajit4419](https://github.com/soumyajit4419/Por
 
 ## Todo
 
+[o] - Change favicon to bit emoji
+ 
+[o] - Redact phone number from resume
+
+[o] - Fix projects section
+
 [o] - Add skill page like laithharb
 
 [o] - Make resume in web dev to make it responsive for mobile and desktops.
