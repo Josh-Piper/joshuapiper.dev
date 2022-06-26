@@ -9,7 +9,7 @@ import swishCards from "../../Assets/Projects/swish-cards.jpeg";
 import timeTasker from "../../Assets/Projects/time-tasker.jpeg";
 import analytics from "../../Assets/Projects/analytics.png";
 import { Modal, Button, Container, Row, Col } from "react-bootstrap";
-import { BiLinkExternal, BiCode } from "react-icons/bi";
+import { BiLinkExternal } from "react-icons/bi";
 
 /**
  * To Do

@@ -10,7 +10,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3><a href="https://github.com/Josh-Piper/joshuapiper.dev" target="_blank">View Source Code</a></h3>
+          <h3><a href="https://github.com/Josh-Piper/joshuapiper.dev" target="_blank" rel="noopener noreferrer" >View Source Code</a></h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
