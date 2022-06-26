@@ -17,7 +17,7 @@ This website is forked from [Soumyajit4419](https://github.com/soumyajit4419/Por
 ## Todo
 
 [o] - Change favicon to bit emoji
- 
+
 [o] - Redact phone number from resume
 
 [o] - Fix projects section
@@ -53,3 +53,17 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
+
+## Resources
+
+### [Bitmoji](https://www.bitmoji.com/)
+Provides characters that you can create and export images of. Has a collection of different activities your character is performing.
+
+### [StorySet](https://storyset.com/)
+Has vector illustrations.
+
+### [UnDraw](https://undraw.co/illustrations)
+Has vector illustrations.
+
+### [React Bootstrap](https://react-bootstrap.github.io/)
+Has css components.

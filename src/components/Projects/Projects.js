@@ -31,9 +31,9 @@ function Projects() {
   }
   const projects = [
     {
-      title: "NFP Designs (Vue.js)",
+      title: "NFP Designs (JavaScript, Vue.js)",
       imgPath: nfpDesigns,
-      description: "The first Vue.js website I created managing state and creating a custom accordion and modal.",
+      description: "Was the first Vue 3 website I created. The site represents a non-for-profit company that provides software development services to other charity organisations at a cheap rate. I focused on learning how to manage state and pass data between different components. I also built my own custom accordion and modal in CSS and JavaScript.",
       firstPoint: "Engineering owner of the E2D experience for the responsive web design targeting primary device types including mobile, tablet and desktop layouts.",
       secondPoint: "Integrated a variety of Vue.js coding practices including mixins, TypeScript support and routing to provide a seamless interaction between the different components.",
       thirdPoint: "Organised robust sorting mechanisms considering the different implementations for best performance.",
@@ -45,23 +45,11 @@ function Projects() {
           View Website
       </Button>
       )
-      // Create a render function to render second link to show the website
-      // For NFP Designs site and Key Word Sign. And when I create the DSEC website.
     },
-    {
-        title: "Battleships (C#, .NET)",
-        imgPath: battleships,
-        description: "A DotNet SplashKit battleships game create in C# after migrating it from Visual Basic.",
-        firstPoint: "Directed a team of 4 to upgrade the codebase for a Windows-based Battleship's game from Visual Basic to C#.",
-        secondPoint: "Integrated CI/CD pipeline as well as architected synchronization between Discord, Trello, GitHub, and Visual Studio to allow for a single source of truth.",
-        thirdPoint: "Managed weekly standup assigned team tasks, and responsible for collection and validation of all",
-        link: "https://github.com/Josh-Piper/Battleships team documents and deliverables.",
-        onClick: () => handleShowProject([1])
-      },
       {
-        title: "Space Game (C++, SplashKit)",
+        title: "Space Game (C++)",
         imgPath: spaceGame,
-        description: "Another SplashKit video game created in C++. With a focus of clean code.",
+        description: "Is the first video game I created from scratch utilising C++ and the SplashKit game library. Try it out where you play as a spaceship having to survive waves of infinite levels which increase the difficulty of surviving. It is compatible for MacOS and Windows.",
         firstPoint: "Delivered a spaceship game in C++ with a key focus on clean and understandable code.",
         secondPoint: "Constructed a cross-platform user-friendly game with a saving system using file I/O.",
         thirdPoint: "Established a reward and difficulty system to encourage players to stay engaged.",
@@ -69,47 +57,63 @@ function Projects() {
         onClick: () => handleShowProject([2])
       },
       {
-        title: "COVID-19 and Twitter Data Analysis",
+        title: "Key Word Sign (React, Node.js)",
+        imgPath: keywordSign,
+        description: "A Hackathon application.",
+        firstPoint: "Created the whole backend.",
+        secondPoint: "Was the team leader orchestrating the idea and delivery of the project.",
+        thirdPoint: "One of the finalists.",
+        link: "https://github.com/Josh-Piper/Mlb-Hack-KeyWordSign",
+        onClick: () => handleShowProject([4])
+
+      },
+      {
+        title: "Swish Cards (Kotlin, Android)",
+        imgPath: swishCards,
+        description: "An Android application used as a flash card revision application. this was the first mobile application I created from scratch.",
+        firstPoint: "Jetpack Compose when it was new",
+        secondPoint: "Kotlin and MVVC architecture",
+        thirdPoint: "Learning about callbacks and all sorts of stuff.",
+        link: "https://github.com/Josh-Piper/Swish-Cards",
+        onClick: () => handleShowProject([5])
+      },
+      {
+        imgPath: timeTasker,
+        title: "Time Tasker (C#, WinForms)",
+        description: "A group project. A todo application..",
+        firstPoint: "Worked in a team of 4 which I led and ensured smooth delivery after creating documentation and design proposal",
+        secondPoint: "Assisted development used in the core platform.",
+        thirdPoint: "Was a University project which achieved a High Distinction.",
+        link: "https://github.com/RewForeN/Time-Tasker",
+        onClick: () => handleShowProject([6])
+      },
+      {
+        title: "Battleships (C#, .NET)",
+        imgPath: battleships,
+        description: "Was the first video game I created in a team. We leveraged the DotNet C# frameworks with the game library SplashKit after a migration from Visual Basic.",
+        firstPoint: "Directed a team of 4 to upgrade the codebase for a Windows-based Battleship's game from Visual Basic to C#.",
+        secondPoint: "Integrated CI/CD pipeline as well as architected synchronization between Discord, Trello, GitHub, and Visual Studio to allow for a single source of truth.",
+        thirdPoint: "Managed weekly standup assigned team tasks, and responsible for collection and validation of all",
+        link: "https://github.com/Josh-Piper/Battleships team documents and deliverables.",
+        onClick: () => handleShowProject([1])
+      },
+      {
+        title: "COVID-19 and Twitter Data Analysis (Python, Jupyter Notebooks)",
         imgPath: analytics,
-        description: "Add bullet points here.",
+        description: "A data analysis project was Numpy, Pandas and Matplotlib to understand how COVID has affected Australia in relation to its statistics and Twitter tweets. Note this was a University project achieving a High Distinction.",
         firstPoint: "Leveraged Matplotlib, Pandas, Scipy and Numpy to derive infographics to present information easier.",
         secondPoint: "Collected and cleaned over 10,000 data rows to ensure clean and concise data.",
         thirdPoint: "Performed clustering and classification to compare the ML processes given a specific dataset.",
         link: "N/A",
         onClick: () => handleShowProject([3])
       },
-      {
-        title: "Key Word Sign (Hackathon)",
-        imgPath: keywordSign,
-        description: "Sup dup.",
-        firstPoint: "Some reason",
-        secondPoint: "Some reason",
-        thirdPoint: "Some reason",
-        link: "https://github.com/Josh-Piper/Mlb-Hack-KeyWordSign",
-        onClick: () => handleShowProject([4])
-
-      },
-      {
-        title: "Swish Cards",
-        imgPath: swishCards,
-        description: "Swooh.",
-        firstPoint: "Some reason",
-        secondPoint: "Some reason",
-        thirdPoint: "Some reason",
-        link: "https://github.com/Josh-Piper/Swish-Cards",
-        onClick: () => handleShowProject([5])
-      },
-      {
-        imgPath: timeTasker,
-        title: "Time Tasker",
-        description: "Swooh.",
-        firstPoint: "Some reason",
-        secondPoint: "Some reason",
-        thirdPoint: "Some reason",
-        link: "https://github.com/RewForeN/Time-Tasker",
-        onClick: () => handleShowProject([6])
-      }
   ];
+
+  const renderRedirectToProjectButton = (project) => {
+    if (project.renderButtonToProject) {
+      return project.renderButtonToProject();
+    };
+  }
 
   return (
     <Container fluid className="project-section">
@@ -147,7 +151,7 @@ function Projects() {
               </Button>
             : 
               <>
-                { projectToShow.renderButtonToProject && projectToShow.renderButtonToProject() }
+                {renderRedirectToProjectButton(projectToShow)}
                 <Button variant="primary" href={projectToShow.link} target="_blank">
                   <BiLinkExternal /> &nbsp;
                   Goto Repository
