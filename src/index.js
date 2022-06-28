@@ -3,20 +3,22 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Helmet>
-      <title>Joshua Piper | SWE</title>
-      <meta name="description" content="Joshua Piper's software engineering portfolio." />
-      {/* <link rel="icon" href="Assets/favicon/favicon.ico" /> */}
-      
-      {/* <!-- Google / Search Engine Tags --> */}
-      <meta itemprop="name" content="Joshua Piper | SWE" />
-      <meta itemprop="description" content="Joshua Piper's software engineering portfolio." />
-    </Helmet>
-    <App />
+    <HelmetProvider>
+      <Helmet>
+        <title>Joshua Piper | SWE</title>
+        <meta name="description" content="Joshua Piper's software engineering portfolio." />
+        {/* <link rel="icon" href="Assets/favicon/favicon.ico" /> */}
+        
+        {/* <!-- Google / Search Engine Tags --> */}
+        <meta itemprop="name" content="Joshua Piper | SWE" />
+        <meta itemprop="description" content="Joshua Piper's software engineering portfolio." />
+      </Helmet>
+      <App />
+    </HelmetProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

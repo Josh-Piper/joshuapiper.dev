@@ -16,17 +16,13 @@ This website is forked from [Soumyajit4419](https://github.com/soumyajit4419/Por
 
 ## Todo
 
-[o] - Change favicon to bit emoji
-
-[o] - Redact phone number from resume
+[o] - Add margins to site so its easier to read. Check with Georgia if the widescreen is annoying.
 
 [o] - Fix projects section
 
 [o] - Add skill page like laithharb
 
 [o] - Make resume in web dev to make it responsive for mobile and desktops.
-
-[o] - Change splashscreen to blue dots
 
 [o] - Change pictures to blue themed
 

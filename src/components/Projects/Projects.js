@@ -171,7 +171,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {
             projects.map((project) => (
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card" key={project.title}>
                 <ProjectCard
                   title={project.title}
                   imgPath={project.imgPath}
