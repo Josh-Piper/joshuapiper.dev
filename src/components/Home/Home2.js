@@ -36,8 +36,8 @@ function Home2() {
               <br />
               <br />
 
-              I am currently in my last year of University after interning as a full-stack developer at Fontis e-commerce consulting group and am
-              now employeed as a graduate software engineer at Tyro Payments. 
+              I am currently in my last year of University after various internships at Fontis, Tyro Payments, and Atlassian. Fortunately,
+              I am working at Tyro Payments while I finish my degree this year in 2023!. 
               <br />
             </p>
           </Col>

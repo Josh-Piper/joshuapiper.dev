@@ -7,6 +7,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineBook
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -81,6 +82,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as="a"
+                role="link"
+                href="https://wiki.joshuapiper.dev"
+              >
+                <AiOutlineBook style={{ marginBottom: "2px" }} /> Wiki
               </Nav.Link>
             </Nav.Item>
           </Nav>
